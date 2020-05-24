@@ -23,9 +23,9 @@
 
 model.py：The main part of the model
 
-train.py：Build the model and train the parameters in the model
+train.py：Build model and train the parameters in the model
 
 metrics.py：Define various evaluation functions
 
-dataset_build.py：Read data
+dataset_build.py：Build dataset for model.
 
