@@ -30,6 +30,19 @@ metrics.py：Define various evaluation functions(prec, ap, ndcg and rr).
 dataset_build.py：Build train set and test set for model.
 
 You can run the model on music dataset by 
-'''
+```
 python3 --dataset music'
-'''
+```
+
+You can run the model on douban movie dataset by
+```
+python3 --dataset movie'
+```
+
+Other important parameters are explained as follows:
+batch_size:The amount of data for each epoch.
+L:The number of history records for each user.
+use_KGloss:Whether to use knowledge loss founction.
+learning_rate:The learning rate for training model.
+method:Which model to used.
+d:The dimension for embedding vectors.
