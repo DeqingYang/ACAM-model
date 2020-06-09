@@ -40,9 +40,15 @@ python3 --dataset movie'
 ```
 
 Other important parameters are explained as follows:
+
 batch_size:The amount of data for each epoch.
+
 L:The number of history records for each user.
+
 use_KGloss:Whether to use knowledge loss founction.
+
 learning_rate:The learning rate for training model.
+
 method:Which model to used.
+
 d:The dimension for embedding vectors.
