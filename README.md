@@ -31,12 +31,12 @@ dataset_build.py：Build train set and test set for model.
 
 You can run the model on music dataset by 
 ```
-python3 --dataset music'
+python3 --dataset music
 ```
 
 You can run the model on douban movie dataset by
 ```
-python3 --dataset movie'
+python3 --dataset movie
 ```
 
 Other important parameters are explained as follows:
